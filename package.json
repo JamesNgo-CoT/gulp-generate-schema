@@ -1,0 +1,30 @@
+{
+  "name": "gulp-generate-schemas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesNgo-CoT/gulp-generate-schema.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesNgo-CoT/gulp-generate-schema/issues"
+  },
+  "homepage": "https://github.com/JamesNgo-CoT/gulp-generate-schema#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "eslint": "^8.3.0",
+    "gulp": "^4.0.2",
+    "gulp-https-request": "git+https://github.com/JamesNgo-CoT/gulp-https-request.git#1.0.0"
+  },
+  "dependencies": {
+    "node-generate-schema": "git+https://github.com/JamesNgo-CoT/node-generate-schema.git#1.0.1",
+    "vinyl": "^2.2.1"
+  }
+}
